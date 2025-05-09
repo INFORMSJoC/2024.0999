@@ -1,0 +1,5 @@
+conflict/usegeneralres = TRUE
+conflict/reductiontechnique = c
+conflict/favorresolution = FALSE
+conflict/maxvarsfracres = 0.15
+limits/time = 7200

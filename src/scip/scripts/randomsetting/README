@@ -1,0 +1,49 @@
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                                           *
+*                  This file is part of the program and library             *
+*         SCIP --- Solving Constraint Integer Programs                      *
+*                                                                           *
+*  Copyright (c) 2002-2024 Zuse Institute Berlin (ZIB)                      *
+*                                                                           *
+*  Licensed under the Apache License, Version 2.0 (the "License");          *
+*  you may not use this file except in compliance with the License.         *
+*  You may obtain a copy of the License at                                  *
+*                                                                           *
+*      http://www.apache.org/licenses/LICENSE-2.0                           *
+*                                                                           *
+*  Unless required by applicable law or agreed to in writing, software      *
+*  distributed under the License is distributed on an "AS IS" BASIS,        *
+*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. *
+*  See the License for the specific language governing permissions and      *
+*  limitations under the License.                                           *
+*                                                                           *
+*  You should have received a copy of the Apache-2.0 license                *
+*  along with SCIP; see the file LICENSE. If not visit scipopt.org.         *
+*                                                                           *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+Installation
+============
+
+To build the random setting generator, simply type "make [OPTIONS]" using
+the same options as for your SCIP build.  Make sure that SCIP is built with
+these options beforehand.  To run the program, it suffices to build with
+"make LPS=none ZIMPL=false READLINE=false GMP=false ZLIB=false" such that no
+external libraries are needed.
+
+
+Usage
+=====
+
+The binary takes a non-negative random seed as an optional parameter (using
+zero if none is given) and writes a random setting file named
+
+   <githash>-<seed>.set
+
+to the same directory.  You can use the command
+
+   make RUNS=<number of setting files to be created> test
+
+to automatically create a series of setting files with current timestamp as
+seed value.
