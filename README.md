@@ -5,20 +5,27 @@ This archive is distributed in association with the INFORMS Journal on Computing
 The software and data in this repository are snapshots used in the research reported in the paper Cut-based Conflict Analysis in Mixed Integer Programming by Gioni Mexi, Felipe Serrano, Timo Berthold, Ambros Gleixner, Jakob Nordström.
 
 ## Cite
-- **Paper**: Gioni Mexi, Felipe Serrano, Timo Berthold, Ambros Gleixner, Jakob Nordström.  
-  "Cut-based Conflict Analysis in Mixed Integer Programming."  
-  TBD https://doi.org/INSERT_DOI
+To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
 
-- **Software**:
+https://doi.org/10.1287/ijoc.2024.0999
 
-  ```bibtex
-  @article{bolusani2024scip,
-    title={The SCIP optimization suite 9.0},
-    author={Suresh Bolusani and Mathieu Besançon and Ksenia Bestuzheva and Antonia Chmiela and João Dionísio and Tim Donkiewicz and Jasper van Doornmalen and Leon Eifler and Mohammed Ghannam and Ambros Gleixner and Christoph Graczyk and Katrin Halbig and Ivo Hedtke and Alexander Hoen and Christopher Hojny and Rolf van der Hulst and Dominik Kamp and Thorsten Koch and Kevin Kofler and Jurgen Lentz and Julian Manns and Gioni Mexi and Erik Mühmer and Marc E. Pfetsch and Franziska Schlösser and Felipe Serrano and Yuji Shinano and Mark Turner and Stefan Vigerske and Dieter Weninger and Liding Xu},
-    journal={arXiv preprint arXiv:2402.17702},
-    year={2024}
-  }
-  ```
+https://doi.org/10.1287/ijoc.2024.0999.cd
+
+Below is the BibTex for citing this snapshot of the repository.
+
+@misc{Mexi2024,
+  author =        {G. Mexi, F. Serrano, T. Berthold, A. Gleixner, J. Nordström},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {{Cut-based Conflict Analysis in Mixed Integer Programming}},
+  year =          {2024},
+  doi =           {10.1287/ijoc.2024.0999.cd},
+  url =           {https://github.com/INFORMSJoC/2024.0999},
+  note =          {Available for download at https://github.com/INFORMSJoC/2024.0999},
+}  
+
+## Description
+This repository provides the data and implementation accompanying the paper:
+Cut-based Conflict Analysis in Mixed Integer Programming
 
 ## Compilation
 
@@ -40,7 +47,7 @@ The software and data in this repository are snapshots used in the research repo
 - **SCIP**: follow instructions in `src/scip/INSTALL.md`
 
 ## Settings
-We tested three SCIP setting files in our experiments:
+We tested three different settings in our experiments:
 - `settings/default.set`
 - `settings/mir-conflicts.set`
 - `settings/coeftight-conflicts.set`
