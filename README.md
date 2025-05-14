@@ -2,9 +2,10 @@
 
 # Cut-based Conflict Analysis in Mixed Integer Programming
 
-This archive is distributed in association with the INFORMS Journal on Computing under the Apache 2.0 License.
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [Apache 2.0 License](LICENSE).
 
-The software and data in this repository are snapshots used in the research reported in the paper Cut-based Conflict Analysis in Mixed Integer Programming by Gioni Mexi, Felipe Serrano, Timo Berthold, Ambros Gleixner, Jakob Nordström.
+The software and data in this repository are snapshots used in the research reported in the paper [Cut-based Conflict Analysis in Mixed Integer Programming](https://doi.org/10.1287/ijoc.2024.0999) by Gioni Mexi, Felipe Serrano, Timo Berthold, Ambros Gleixner, Jakob Nordström.
 
 ## Cite
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
